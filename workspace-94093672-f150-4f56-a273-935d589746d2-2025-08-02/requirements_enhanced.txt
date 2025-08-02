@@ -1,0 +1,71 @@
+# Enhanced Medical AI System Requirements
+# Core Dependencies
+streamlit>=1.47.1
+openai>=1.98.0
+python-dotenv>=1.1.1
+pandas>=2.3.1
+numpy>=2.3.2
+matplotlib>=3.10.5
+plotly>=6.2.0
+requests>=2.32.4
+
+# Data Processing
+datasets>=4.0.0
+transformers>=4.54.1
+scikit-learn>=1.5.0
+scipy>=1.16.1
+
+# Medical Data Processing
+biopython>=1.85
+pubmed-parser>=0.5.1
+lxml>=6.0.0
+unidecode>=1.4.0
+
+# Image Processing (for medical imaging)
+opencv-python>=4.11.0
+scikit-image>=0.25.2
+imageio>=2.37.0
+tifffile>=2025.6.11
+lazy-loader>=0.4
+
+# Medical Imaging (MONAI) - Optional due to size constraints
+# monai>=1.4.0
+# nibabel>=5.3.2
+# pydicom>=3.0.1
+
+# Utilities
+tqdm>=4.67.1
+pathlib2>=2.3.7
+asyncio-throttle>=1.0.2
+aiohttp>=3.12.15
+httpx>=0.28.1
+
+# Development and Testing
+pytest>=8.0.0
+pytest-asyncio>=0.24.0
+black>=24.0.0
+flake8>=7.0.0
+mypy>=1.11.0
+
+# Optional: Advanced NLP
+# torch>=2.7.1
+# torchvision>=0.22.1
+# tokenizers>=0.21.4
+# safetensors>=0.5.3
+
+# Database (for production)
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Security
+cryptography>=43.0.0
+bcrypt>=4.2.0
+
+# Monitoring and Logging
+loguru>=0.7.2
+prometheus-client>=0.21.0
+
+# Web Framework Enhancements
+streamlit-authenticator>=0.3.3
+streamlit-option-menu>=0.4.0
+streamlit-aggrid>=1.0.5

@@ -1,0 +1,78 @@
+{
+  "chest_xray_analysis": {
+    "modality": "Chest X-ray",
+    "analysis_date": "2025-08-02T02:18:48.148970",
+    "image_quality": "Good",
+    "technical_factors": {
+      "penetration": "Adequate",
+      "inspiration": "Good",
+      "rotation": "None",
+      "positioning": "PA upright"
+    },
+    "anatomical_structures": {
+      "heart": {
+        "size": "Normal",
+        "contour": "Normal",
+        "cardiothoracic_ratio": 0.45
+      },
+      "lungs": {
+        "expansion": "Symmetric",
+        "vascularity": "Normal",
+        "pleura": "Smooth"
+      },
+      "mediastinum": {
+        "width": "Normal",
+        "contour": "Normal"
+      },
+      "bones": {
+        "ribs": "Intact",
+        "spine": "Straight",
+        "shoulders": "Symmetric"
+      }
+    },
+    "pathological_findings": [],
+    "ai_confidence_scores": {},
+    "recommendations": [
+      "Routine follow-up as clinically indicated"
+    ],
+    "impression": "No acute cardiopulmonary abnormality"
+  },
+  "segmentation_results": {
+    "modality": "Chest X-ray",
+    "segmentation_date": "2025-08-02T02:18:48.149622",
+    "structures_identified": [
+      "Structure 1",
+      "Structure 2"
+    ],
+    "volumes": {
+      "Structure 1": "Normal",
+      "Structure 2": "Normal"
+    },
+    "confidence_scores": {
+      "Structure 1": 0.973592859833289,
+      "Structure 2": 0.9451592124354826
+    }
+  },
+  "abnormality_detection": {
+    "modality": "Chest X-ray",
+    "detection_date": "2025-08-02T02:18:48.173191",
+    "clinical_context": "Routine screening",
+    "abnormalities_detected": [],
+    "normal_findings": [
+      "No acute abnormalities detected",
+      "Normal anatomical structures",
+      "No pathological findings"
+    ],
+    "ai_model_version": "MedExpert-MONAI-Enhanced-v1.0",
+    "processing_time": "3.2 seconds"
+  },
+  "preprocessing_info": {
+    "shape": [
+      630,
+      581
+    ],
+    "dtype": "float64",
+    "min_value": 0.0,
+    "max_value": 1.0
+  }
+}
